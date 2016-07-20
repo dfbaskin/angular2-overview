@@ -1,0 +1,23 @@
+
+div.content {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 8vh;
+    font-weight: bold;
+    margin-bottom: 8vh;
+  }
+
+  li {
+    font-size: 4vh;
+    margin-bottom: 1vh;
+    > ul {
+      margin-top: 1vh;
+    }
+  }
+
+}
