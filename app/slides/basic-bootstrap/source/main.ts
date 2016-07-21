@@ -6,7 +6,7 @@ import {HTTP_PROVIDERS} from '@angular/http';
 @Component({
     moduleId: module.id,
     selector: 'my-app',
-    template: '<h1>Hello World!!!</h1>',
+    template: '<h1>Hello World!</h1>',
 })
 export class AppComponent {
 }
