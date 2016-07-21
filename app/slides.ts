@@ -5,6 +5,7 @@ import {WhyNotPromisesComponent} from './slides/why-not-promises/why-not-promise
 import {OtherFeaturesComponent} from './slides/other-features/other-features.component';
 import {BuildingBlocksComponent} from './slides/building-blocks/building-blocks.component';
 import {BasicSetupComponent} from './slides/basic-setup/basic-setup.component';
+import {BasicBootstrapComponent} from './slides/basic-bootstrap/basic-bootstrap.component';
             
 export const SLIDE_COMPONENTS = [
     TitlePageComponent,
@@ -12,5 +13,6 @@ export const SLIDE_COMPONENTS = [
     WhyNotPromisesComponent,
     OtherFeaturesComponent,
     BuildingBlocksComponent,
-    BasicSetupComponent
+    BasicSetupComponent,
+    BasicBootstrapComponent
 ];
