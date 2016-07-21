@@ -6,6 +6,7 @@ import {OtherFeaturesComponent} from './slides/other-features/other-features.com
 import {BuildingBlocksComponent} from './slides/building-blocks/building-blocks.component';
 import {BasicSetupComponent} from './slides/basic-setup/basic-setup.component';
 import {BasicBootstrapComponent} from './slides/basic-bootstrap/basic-bootstrap.component';
+import {ComponentStructureComponent} from './slides/component-structure/component-structure.component';
             
 export const SLIDE_COMPONENTS = [
     TitlePageComponent,
@@ -14,5 +15,6 @@ export const SLIDE_COMPONENTS = [
     OtherFeaturesComponent,
     BuildingBlocksComponent,
     BasicSetupComponent,
-    BasicBootstrapComponent
+    BasicBootstrapComponent,
+    ComponentStructureComponent
 ];
