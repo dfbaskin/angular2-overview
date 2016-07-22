@@ -1,0 +1,35 @@
+div.content {
+
+  display: flex;
+  flex-direction: column;
+
+  > h1 {
+    text-align: center;
+    font-size: 5vh;
+    font-weight: bold;
+    margin-bottom: 4vh;
+  }
+
+  > div {
+
+    display: flex;
+    flex-direction: row;
+
+    > div {
+      margin: 0 2vw;
+      flex-grow: 1;
+
+      h2 {
+        font-size: 2.5vh;
+        font-weight: bold;
+        margin-top: 2vh;
+        margin-bottom: 0;
+        border-bottom: 1px solid gray;
+      }
+
+      source-code-view {
+        border: none;
+      }
+    }
+  }
+}
