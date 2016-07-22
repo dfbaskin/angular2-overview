@@ -8,7 +8,8 @@ import {BasicSetupComponent} from './slides/basic-setup/basic-setup.component';
 import {BasicBootstrapComponent} from './slides/basic-bootstrap/basic-bootstrap.component';
 import {ComponentStructureComponent} from './slides/component-structure/component-structure.component';
 import {TemplateSyntaxComponent} from './slides/template-syntax/template-syntax.component';
-
+import {ComponentHierarchyComponent} from './slides/component-hierarchy/component-hierarchy.component';
+            
 export const SLIDE_COMPONENTS = [
     TitlePageComponent,
     ClosingPageComponent,
@@ -18,5 +19,6 @@ export const SLIDE_COMPONENTS = [
     BasicSetupComponent,
     BasicBootstrapComponent,
     ComponentStructureComponent,
-    TemplateSyntaxComponent
+    TemplateSyntaxComponent,
+    ComponentHierarchyComponent
 ];

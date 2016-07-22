@@ -1,0 +1,31 @@
+
+body {
+  padding: 6rem;
+}
+
+container-component {
+  > div {
+    background-color: lightblue;
+    padding: 1rem;
+    border: 1px solid darkblue;
+    margin: 2rem;
+  }
+}
+
+panel-component {
+  > div {
+    background-color: lightgreen;
+    padding: 1rem;
+    border: 1px solid darkgreen;
+    margin: 2rem;
+  }
+}
+
+item-component {
+  > div {
+    background-color: lightcoral;
+    padding: 1rem;
+    border: 1px solid darkred;
+    margin: 1.2rem;
+  }
+}
