@@ -9,6 +9,7 @@ import {BasicBootstrapComponent} from './slides/basic-bootstrap/basic-bootstrap.
 import {ComponentStructureComponent} from './slides/component-structure/component-structure.component';
 import {TemplateSyntaxComponent} from './slides/template-syntax/template-syntax.component';
 import {ComponentHierarchyComponent} from './slides/component-hierarchy/component-hierarchy.component';
+import {InputsOutputsComponent} from './slides/inputs-outputs/inputs-outputs.component';
             
 export const SLIDE_COMPONENTS = [
     TitlePageComponent,
@@ -20,5 +21,6 @@ export const SLIDE_COMPONENTS = [
     BasicBootstrapComponent,
     ComponentStructureComponent,
     TemplateSyntaxComponent,
-    ComponentHierarchyComponent
+    ComponentHierarchyComponent,
+    InputsOutputsComponent
 ];
