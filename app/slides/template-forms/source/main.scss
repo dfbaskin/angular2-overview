@@ -1,0 +1,33 @@
+
+body {
+  padding: 2rem;
+}
+
+form {
+  div {
+    margin: 1rem;
+  }
+
+  input {
+    padding: 0.2rem;
+  }
+
+  .err-msg {
+    padding: 0.2rem;
+    background-color: firebrick;
+    color: white;
+    font-weight: bold;
+  }
+
+  .ng-untouched {
+    background-color: lightgray;
+  }
+
+  .ng-valid {
+    border-left: 5px solid #42A948; /* green */
+  }
+
+  .ng-invalid {
+    border-left: 5px solid #a94442; /* red */
+  }
+}

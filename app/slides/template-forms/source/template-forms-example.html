@@ -1,0 +1,53 @@
+<div>
+    <h1>User Form</h1>
+    <form novalidate #userForm="ngForm" (ngSubmit)="onSubmitUser(userForm.value)">
+
+        <div>
+            <label>User Id:</label>
+            <input type="text" name="userId" [(ngModel)]="user.userId" required pattern="^[a-z]([a-z0-9_])+$" #userId="ngModel">
+            <div *ngIf="userId.errors?.required" class="err-msg">
+                User Id is required
+            </div>
+            <div *ngIf="userId.errors?.pattern" class="err-msg">
+                User Id is not in the correct format
+            </div>
+        </div>
+
+        <div>
+            <label>Full Name:</label>
+            <input type="text" name="fullName" [(ngModel)]="user.fullName" required #fullName="ngModel">
+            <div *ngIf="fullName.errors?.required" class="err-msg">
+                Full name is required
+            </div>
+        </div>
+
+        <fieldset ngModelGroup="contact">
+
+            <div>
+                <label>Email Address:</label>
+                <input type="email" name="emailAddr" [(ngModel)]="user.contact.emailAddr" required #emailAddr="ngModel">
+                <div *ngIf="emailAddr.errors?.required" class="err-msg">
+                    Email Address is required
+                </div>
+            </div>
+
+            <div>
+                <label>Twitter Handle:</label>
+                <input type="text" name="twitterHandle" [(ngModel)]="user.contact.twitterHandle" pattern="^\@[a-z]([a-z0-9_])+$" #twitterHandle="ngModel">
+                <div *ngIf="twitterHandle.errors?.pattern" class="err-msg">
+                    Twitter handle is not in the correct format
+                </div>
+            </div>
+
+        </fieldset>
+
+        <div>
+            <button type="submit" [disabled]="!userForm.valid">Submit</button>
+        </div>
+
+    </form>
+    <div *ngIf="submittedData">
+        <p>Submitted Data:</p>
+        <pre>{{submittedData}}</pre>
+    </div>
+</div>
