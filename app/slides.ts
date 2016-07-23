@@ -12,6 +12,7 @@ import {InputsOutputsComponent} from './slides/inputs-outputs/inputs-outputs.com
 import {WhyNotPromisesComponent} from './slides/why-not-promises/why-not-promises.component';
 import {ObservablesComponent} from './slides/observables/observables.component';
 import {SocketObservableExampleComponent} from './slides/socket-observable-example/socket-observable-example.component';
+import {InjectableServicesComponent} from './slides/injectable-services/injectable-services.component';
 
 export const SLIDE_COMPONENTS = [
     TitlePageComponent,
@@ -26,5 +27,6 @@ export const SLIDE_COMPONENTS = [
     InputsOutputsComponent,
     WhyNotPromisesComponent,
     ObservablesComponent,
-    SocketObservableExampleComponent
+    SocketObservableExampleComponent,
+    InjectableServicesComponent
 ];
