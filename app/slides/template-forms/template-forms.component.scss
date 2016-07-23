@@ -1,3 +1,23 @@
 
 div.content {
+
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: row;
+
+    > source-code-view {
+      flex-grow: 1;
+      margin: 0vh 2vw;
+    }
+  }
 }
