@@ -14,7 +14,8 @@ import {ObservablesComponent} from './slides/observables/observables.component';
 import {SocketObservableExampleComponent} from './slides/socket-observable-example/socket-observable-example.component';
 import {InjectableServicesComponent} from './slides/injectable-services/injectable-services.component';
 import {TemplateFormsComponent} from './slides/template-forms/template-forms.component';
-            
+import {ModelFormsComponent} from './slides/model-forms/model-forms.component';
+
 export const SLIDE_COMPONENTS = [
     TitlePageComponent,
     ClosingPageComponent,
@@ -30,5 +31,6 @@ export const SLIDE_COMPONENTS = [
     ObservablesComponent,
     SocketObservableExampleComponent,
     InjectableServicesComponent,
-    TemplateFormsComponent
+    TemplateFormsComponent,
+    ModelFormsComponent
 ];
