@@ -1,5 +1,4 @@
 
-import {provide} from '@angular/core';
 import {bootstrap} from '@angular/platform-browser-dynamic';
 import {Location, LocationStrategy, HashLocationStrategy } from '@angular/common';
 import {PlatformLocation} from '@angular/common';
@@ -13,6 +12,6 @@ import 'rxjs/add/operator/do';
 bootstrap(AppComponent, [
     Location,
     HTTP_PROVIDERS,
-    provide(PlatformLocation, { useClass: BrowserPlatformLocation }),
-    provide(LocationStrategy, { useClass: HashLocationStrategy })
+    { provide: PlatformLocation, useClass: BrowserPlatformLocation },
+    { provide: LocationStrategy, useClass: HashLocationStrategy }
 ]);
