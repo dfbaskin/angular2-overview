@@ -16,8 +16,15 @@ div.content {
     flex-direction: row;
 
     > source-code-view {
-      flex-grow: 1;
       margin: 0vh 2vw;
+    }
+
+    > source-code-view:nth-of-type(1) {
+      flex-basis: 50%;
+    }
+
+    > source-code-view:nth-of-type(2) {
+      flex-basis: 50%;
     }
   }
 }

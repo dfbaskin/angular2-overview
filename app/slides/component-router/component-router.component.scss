@@ -1,3 +1,21 @@
 
 div.content {
+
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  > div {
+    overflow-y: auto;
+    min-height: 100px;
+    > source-code-view {
+      margin: 0vh 2vw;
+    }
+  }
 }
