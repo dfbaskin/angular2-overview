@@ -6,6 +6,9 @@ import {provideRouter} from "@angular/router";
 
 import {rootRoutes, RootContainerComponent} from './route-components';
 
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/do';
+
 @Component({
     moduleId: module.id,
     selector: 'my-app',
